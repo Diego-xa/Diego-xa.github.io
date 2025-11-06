@@ -1,0 +1,104 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #3a106b 0%, #000000 100%);
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.producto-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card img {
+    width: 100%;
+    transition: none;
+}
+
+
+.producto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+.producto-card .precio { color: #198754; font-weight: bold; font-size: 1.1rem; } 
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    margin-top: auto; 
+    text-align: center;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-whatsapp img {
+  width: 35px;
+  margin-top: 5px;
+  filter: invert(1); 
+}
+
+.btn-whatsapp:hover {
+  transform: scale(1.1);
+  background-color: #20ba5a;
+}
+
+.btn-tiktok {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 90px; 
+  right: 20px;
+  background-color: #000000; 
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.btn-tiktok img {
+  width: 35px;
+  margin-top: 5px;
+  filter: invert(1); 
+}
+
+.btn-tiktok:hover {
+  transform: scale(1.1);
+  background-color: #5ec4ff;}
