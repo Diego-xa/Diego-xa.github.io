@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Ñiquen Confecciones - Taller familiar en Lima especializado en la confección de mochilas, ropa y maletines personalizados, con diseños resistentes y llenos de estilo.">
+    <meta name="author" content="Ñiquen Confecciones">
+    <meta name="keywords"
+        content="Ñiquen Confecciones, mochilas, ropa, maletines, confección, personalizados, lima, Perú, moda, taller familiar, confección de ropa, confección de mochilas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ñiquen Confecciones</title>
+    <!-- Bootstrap CSS y js-->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/mystyle.css" rel="stylesheet">
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="dist/imagenes/logo mochila.png" alt="Logo">
+                <span class="ms-2">ÑiquenConfecciones</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page/productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page/carrito.html">
+                            <img src="dist/imagenes/9341730.png" alt="Carrito" width="25">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carrusel de Banner -->
+    <section class="container-fluid p-0">
+        <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="dist/imagenes/banner_1.png" class="d-block w-100" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="dist/imagenes/banner_2.png" class="d-block w-100" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="dist/imagenes/banner_3.png" class="d-block w-100" alt="Banner 3">
+                </div>
+            </div>
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="text-center text-uppercase fw-bold text-white border-bottom border-white border-3 pb-2 mb-4">
+            PRODUCTOS DESTACADOS</h2>
+        <div class="row g-4 justify-content-center">
+            <!--Producto 1 -->
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="card producto-card">
+                    <img src="dist/imagenes/Producto_1.jpeg" class="card-img-top" alt="Mochila de cuero">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mochila de cuero</h5>
+                        <p class="card-text precio">S/ 89.90</p>
+                        <p class="card-text text-muted">Resistente, moderna y 100% hecha en Perú.</p>
+                        <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!--Producto 2 -->
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="card producto-card">
+                    <img src="dist/imagenes/Producto_2.png" class="card-img-top" alt="Polo de algodón">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Polo de Algodón</h5>
+                        <p class="card-text precio">S/ 49.90</p>
+                        <p class="card-text text-muted">Suavidad y calidad en cada costura.</p>
+                        <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!--Producto 3 -->
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="card producto-card">
+                    <img src="../dist/imagenes/Producto_3.jpg" class="card-img-top" alt="Maletín ejecutivo">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Maletín Ejecutivo</h5>
+                        <p class="card-text precio">S/ 119.90</p>
+                        <p class="card-text text-muted">Ideal para trabajo con estilo profesional.</p>
+                        <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!--Producto 4 -->
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="card producto-card">
+                    <img src="/dist/imagenes/Producto_4.jpg" class="card-img-top" alt="Cartera de cuero">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cartera de Cuero</h5>
+                        <p class="card-text precio">S/ 139.90</p>
+                        <p class="card-text text-muted">Diseño elegante, ideal para el día a día.</p>
+                        <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!--Producto 5 -->
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="card producto-card">
+                    <img src="/dist/imagenes/Producto_5.png" class="card-img-top" alt="Mochila casual">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mochila Casual</h5>
+                        <p class="card-text precio">S/ 79.90</p>
+                        <p class="card-text text-muted">Perfecta para estudios o paseos urbanos.</p>
+                        <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!--Producto 6 -->
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="card producto-card">
+                    <img src="/dist/imagenes/Producto_6.png" class="card-img-top" alt="Casaca deportiva">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Casaca Deportiva</h5>
+                        <p class="card-text precio">S/ 159.90</p>
+                        <p class="card-text text-muted">Comodidad y estilo para todo clima.</p>
+                        <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PANTALONES DESTACADOS -->
+    <section class="container my-5">
+        <h2 class="text-center text-uppercase fw-bold text-white border-bottom border-white border-3 pb-2 mb-4">
+            Pantalones
+            Desatacados</h2>
+        <div id="carruselPantalones" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- GRUPO 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+                        <!-- Producto 1 -->
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/pantalon_1.png" class="card-img-top" alt="Jeans clásico">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Jeans Clásico</h5>
+                                    <p class="card-text precio">S/ 99.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Producto 2 -->
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/pantalon_2.png" class="card-img-top" alt="Jogger urbano">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Jogger Urbano</h5>
+                                    <p class="card-text precio">S/ 89.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Producto 3 -->
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/pantalon_3.jpg" class="card-img-top" alt="Pantalón cargo">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Pantalón Cargo</h5>
+                                    <p class="card-text precio">S/ 109.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GRUPO 2 -->
+                <div class="carousel-item">
+                    <div class="row g-4 justify-content-center">
+                        <!-- Producto 4 -->
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/pantalon_4.jpg" class="card-img-top" alt="Pantalón slim fit">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Slim Fit</h5>
+                                    <p class="card-text precio">S/ 119.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Producto 5 -->
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/pantalon_5.jpg" class="card-img-top" alt="Pantalón chino">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Pantalón Chino</h5>
+                                    <p class="card-text precio">S/ 99.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Producto 6 -->
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/pantalon_6.jpg" class="card-img-top" alt="Pantalón stretch">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Stretch Comfort</h5>
+                                    <p class="card-text precio">S/ 109.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Botones laterales -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPantalones"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselPantalones"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- CASACAS DESTACADAS -->
+    <section class="container my-5">
+        <h2 class="text-center text-uppercase fw-bold text-white border-bottom border-white border-3 pb-2 mb-4">Casaca
+            destacada</h2>
+        <div id="carruselCasacas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- GRUPO 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/casaca_1.jpg" class="card-img-top" alt="Casaca de jean">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Casaca de Jean</h5>
+                                    <p class="card-text precio">S/ 149.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/casaca_2.jpg" class="card-img-top" alt="Casaca rompevientos">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Rompevientos</h5>
+                                    <p class="card-text precio">S/ 129.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/casaca_3.jpg" class="card-img-top" alt="Casaca de cuero">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Casaca de Cuero</h5>
+                                    <p class="card-text precio">S/ 199.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GRUPO 2 -->
+                <div class="carousel-item">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/casaca_4.jpg" class="card-img-top" alt="Casaca polar">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Casaca Polar</h5>
+                                    <p class="card-text precio">S/ 139.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/casaca_5.jpg" class="card-img-top" alt="Casaca bomber">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Casaca Bomber</h5>
+                                    <p class="card-text precio">S/ 159.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/casaca_6.jpg" class="card-img-top" alt="Casaca deportiva">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Casaca Deportiva</h5>
+                                    <p class="card-text precio">S/ 119.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Botones -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselCasacas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselCasacas" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ZAPATILLAS DESTACADAS -->
+    <section class="container my-5">
+        <h2 class="text-center text-uppercase fw-bold text-white border-bottom border-white border-3 pb-2 mb-4">
+            Zapatillas Destacadas</h2>
+        <div id="carruselZapatillas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- GRUPO 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/zapatilla_1.jpg" class="card-img-top"
+                                    alt="Zapatillas deportivas">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Zapatillas Depor</h5>
+                                    <p class="card-text precio">S/ 179.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/zapatilla_2.jpg" class="card-img-top" alt="Zapatillas casuales">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Zapatillas Casual</h5>
+                                    <p class="card-text precio">S/ 159.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/zapatilla_3.jpg" class="card-img-top" alt="Zapatillas urbanas">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Classics</h5>
+                                    <p class="card-text precio">S/ 189.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GRUPO 2 -->
+                <div class="carousel-item">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/zapatilla_4.jpg" class="card-img-top" alt="Zapatillas running">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Runner Pro</h5>
+                                    <p class="card-text precio">S/ 199.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/zapatilla_5.jpg" class="card-img-top" alt="Zapatillas skate">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Zapatillas Skate</h5>
+                                    <p class="card-text precio">S/ 169.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2">
+                            <div class="card producto-card">
+                                <img src="dist/imagenes/zapatilla_6.jpg" class="card-img-top" alt="Zapatillas trekking">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Trekking</h5>
+                                    <p class="card-text precio">S/ 209.90</p>
+                                    <a href="page/carrito.html" class="btn btn-success btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Botones -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselZapatillas"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselZapatillas"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <!-- mapa -->
+    <section class="container text-center my-5">
+        <h1 class="text-center text-uppercase fw-bold text-white border-bottom border-white border-3 pb-2 mb-4">
+            Encuentranos</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15597.545651865672!2d-76.94973601055909!3d-12.222094680263233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105bbe17ba52d5d%3A0x14c898e73baf5787!2sInstituci%C3%B3n%20Educativa%206069%20Pachac%C3%BAtec!5e0!3m2!1ses-419!2spe!4v1757040532844!5m2!1ses-419!2spe"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+
+        <p class="container text-center my-5 text-light">Nuestra Sede: San Juan de Lurigancho</p>
+        <a href="https://maps.app.goo.gl/sTzjYrtXqkh3YkZz7" target="_blank" class="btn btn-primary btn-sm">
+            Ver en Google Maps
+        </a>
+    </section>
+    <!-- Contacto -->
+    <a href="https://wa.me/51999999999" class="btn-whatsapp" target="_blank" title="Escríbenos por WhatsApp">
+        <img src="dist/imagenes/whatsapp.svg" alt="WhatsApp" />
+    </a>
+
+<a href="https://www.tiktok.com/@tuusuario" class="btn-tiktok" target="_blank" title="Síguenos en TikTok">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" />
+</a>
+
+    <section id="Contacto" class="container text-center my-5 text-light">
+        <h2 class="fw-bold mb-3">Contacta con Nosotros</h2>
+        <p>¡Estamos para ayudarte! Escríbenos o visítanos en cualquiera de nuestras plataformas.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-start">
+                <h4 class="fw-semibold">Información de Contacto</h4>
+                <p>Dirección: Av. Principal 123, Lima, Perú</p>
+                <p>Teléfono: +51 987 654 321</p>
+                <p>Email: ÑConfecciones@gmail.com</p>
+                <p>Facebook: <a href="https://facebook.com/ÑConfecciones" target="_blank"
+                        class="text-light text-decoration-underline">facebook.com/ÑConfecciones</a></p>
+                <p>Instagram: <a href="https://instagram.com/Ñconfecciones" target="_blank"
+                        class="text-light text-decoration-underline">@Ñconfecciones</a></p>
+                <p>WhatsApp: <a href="https://wa.me/5199634736" target="_blank"
+                        class="text-light text-decoration-underline">Envíanos un mensaje</a></p>
+
+            </div>
+            <div class="col-md-6">
+                <h4 class="fw-semibold">Envíanos un Mensaje</h4>
+                <form action="#" method="post">
+                    <div class="mb-3 text-start">
+                        <label class="form-label text-light">Nombre:</label>
+                        <input type="text" name="nombre" class="form-control" required>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label text-light">Correo:</label>
+                        <input type="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label text-light">Mensaje:</label>
+                        <textarea name="mensaje" rows="4" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2025 Ñiquen Confecciones - Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
